@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link favicon para adicionar icone na aba do navegador-->
+    <link rel="shortcut icon" href="src/imagens/StarCraft-Icon.png" type="image/x-icon">
+    <title>Projeto Pokemon Slider</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css".css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/imagens/StarCraft-Icon.png" alt="Starcraft">
+        <h1 class="titulo">StarCraft Cards</h1>
+    </header>
+    <main class="sc-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src\imagens\seta.png" alt="setavoltar">
+        </button>
+        <ul class="lista-sc">
+            <li class="cartao selecionado fundo1">
+                <div class="informacoes">
+                    <h2 class="nome">Zealot</h2>
+                    <p class="dano">AD 500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Zealot.png" 
+                    alt="Zealot" class="imagem-sc"/>
+                </div>
+
+                <div class="descricao protoss">
+                    <h3 class="titulo">Descrição <img src="./src/imagens/icon-protoss.png" alt="pt-icon" class="icons"></h3>
+                    <p class="texto">"Guerreiros inigualáveis no campo de batalha, os fanáticos passam por décadas de treinamento intenso para aperfeiçoar suas habilidades de combate. Suas lâminas psi exclusivas são formadas com sua própria energia psiônica."</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo2">
+                <div class="informacoes">
+                    <h2 class="nome">Hydralisk</h2>
+                    <p class="dano">AD 450</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/hydralisk.png" 
+                    alt="Hydralisk" class="imagem-sc"/>
+                </div>
+
+                <div class="descricao zerg">
+                    <h3 class="titulo">Descrição <img src="./src/imagens/icon-zerg.png" alt="pt-icon" class="icons"></h3>
+                    <p class="texto">O Hydralisk é a criatura básica da linha de frente dos Zergs, formando a base dos ataques com sua carapaça resistente e ataque à distância.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo3">
+                <div class="informacoes">
+                    <h2 class="nome">Marines</h2>
+                    <p class="dano">AD 400</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/marine02.png" 
+                    alt="Marines" class="imagem-sc"/>
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição <img src="./src/imagens/icon-human.png" alt="pt-icon" class="icons"></h3>
+                    <p class="texto">"You want a piece of me, boy?" Os fuzileiros navais terráqueos são um tipo de infantaria à distância. "Trabalhe duro, jogue duro, morra jovem... mas não hoje!"</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src\imagens\seta.png" alt="setaavançar">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
